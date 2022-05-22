@@ -19,22 +19,22 @@
 }
 body{
     height: 100vh;
-    background: #61b2ed;
+    background: #b5daf1;
 }
 .container{
-    background-color: #ffffff;
+    background-color:white;
     padding: 30px 30px;   
     width: 400px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    border-radius: 5px;
+    border-radius: 8px;
     font-family: 'Poppins',sans-serif;
     box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
 }
 .container h1{
-	background: #024b94;
+	background: #002157;
 	color: white;
 	text-align: center;
 	font-size: 23px;
@@ -84,8 +84,9 @@ input[type="range"]::-webkit-slider-thumb{
     letter-spacing: 1px;
 }
 .display{
-box-shadow: 0 0 20px rgba(0,139,253,0.25);
+box-shadow: 0 0 20px rgba(62, 96, 150, 0.511);
 margin-bottom: 60px;
+border-radius:8px;
 }
 .header img{
     position:relative;
@@ -94,8 +95,27 @@ margin-bottom: 60px;
 }
 .foot img{
     position:relative;
-    right: 5%;
-    top:20px;
+    right:14px;
+    top:15px;
+}
+.reg{
+ padding-bottom: 10px;
+}
+button{
+    width:365px;
+    height: 30px;
+    border: none;
+    border-radius:0px 0px 8px 8px;
+    color: white;
+    background-color: #002157;
+    position:relative;
+    top: 25px;
+    right: 14px;
+    font-family: poppins;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #103c83;
 }
     </style>
 </head>
@@ -119,6 +139,9 @@ margin-bottom: 60px;
         </div>
         <div class="foot">
             <img src="footer.png" width="380px" height="auto">
+        </div>
+        <div class="reg">
+            <button id="log">Click to Register</button>
         </div>
 
 
